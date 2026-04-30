@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/PrecogsAI/.github/main/profile/banner.png" alt="Precogs AI Banner" width="100%" />
+  <img src="https://avatars.githubusercontent.com/u/135982634?v=4" alt="Precogs AI Logo" width="150" style="border-radius: 20%; margin-bottom: 20px;" />
   <h1>🛡️ Precogs AI</h1>
   <p><b>Agentic Application Security. Zero Noise. Complete Coverage.</b></p>
   <a href="https://precogs.ai">Website</a> • <a href="https://docs.precogs.ai">Documentation</a> • <a href="https://app.precogs.ai">Platform</a> • <a href="https://twitter.com/precogs_ai">Twitter</a>
