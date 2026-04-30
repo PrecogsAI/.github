@@ -1,35 +1,42 @@
-# 🛡️ Precogs AI
-
-**Next-Generation Application Security, Powered by AI.**
-
-Precogs AI is a revolutionary security orchestration platform that catches vulnerabilities, secrets, PII, and insecure dependencies before they reach production. We replace noisy, legacy code scanners with an autonomous, high-fidelity AI agent that doesn't just scan code—it understands it.
-
----
-
-### 🚀 Our Tools
-
-#### [Precogs AI Security Scan (GitHub Action)](https://github.com/marketplace/actions/precogs-ai-security-scan)
-Secure your CI/CD pipeline in 3 lines of code. Features a **100% Free Tier** with no API key required for:
-- 🔑 **Secrets Scanning** (25+ patterns, entropy analysis)
-- 💳 **PII Detection** (SSNs, credit cards, emails)
-- 📦 **Dependency CVE Scanning** (powered by OSV.dev)
-
-#### [Precogs MCP Server](https://github.com/PrecogsAI/precogs-mcp-server)
-Integrate Precogs security scanning into any AI agent workflow using the Model Context Protocol.
-
-#### [Precogs CLI](https://github.com/PrecogsAI/precogs-cli)
-Run ultra-fast local SAST, secret, and PII scans directly from your terminal.
+<div align="center">
+  <img src="https://raw.githubusercontent.com/PrecogsAI/.github/main/profile/banner.png" alt="Precogs AI Banner" width="100%" />
+  <h1>🛡️ Precogs AI</h1>
+  <p><b>Agentic Application Security. Zero Noise. Complete Coverage.</b></p>
+  <a href="https://precogs.ai">Website</a> • <a href="https://docs.precogs.ai">Documentation</a> • <a href="https://app.precogs.ai">Platform</a> • <a href="https://twitter.com/precogs_ai">Twitter</a>
+</div>
 
 ---
 
-### 🌟 Why Precogs?
-1. **Agentic Orchestration:** We don't just dump alerts. The Precogs `PROrchestrator` scans, autofixes, verifies, and reports directly in your pull requests.
-2. **Ultra-Low False Positives:** We use proprietary AI models and Code Property Graph (CPG) analysis to trace data flow, virtually eliminating noise.
-3. **Developer First:** Built for speed, accuracy, and seamless integration into modern dev workflows.
+We are building the future of autonomous application security. Precogs replaces legacy, high-noise scanners with an agentic orchestration pipeline that doesn't just find vulnerabilities—it understands your architecture, verifies exploits via Code Property Graphs (CPG), and orchestrates remediation directly in your pull requests.
+
+## 🚀 The Platform
+
+Precogs provides end-to-end security visibility across your entire software supply chain, broken down into three core pillars:
+
+### 1. Source Code Security (SAST & SCA)
+Stop vulnerabilities before they merge. Our agentic pipeline analyzes source code using semantic Code Property Graphs, catching complex, multi-file vulnerability paths (SQLi, XSS, Command Injection) with virtually zero false positives. It automatically identifies insecure open-source dependencies via OSV integration.
+👉 *Try it now: [Precogs GitHub Action](https://github.com/marketplace/actions/precogs-ai-security-scan)*
+
+### 2. Binary & Artifact Security 
+You ship compiled code; you need to scan compiled code. Precogs reverse-engineers and analyzes compiled binaries, container images, and software artifacts to detect embedded vulnerabilities, supply chain tampering, and zero-day risks that source-code scanners miss.
+
+### 3. Data Security & Posture Management
+Real-time visibility into data exposure. Precogs identifies hardcoded secrets, API keys, and sensitive PII (SSNs, credit cards, healthcare data) using a proprietary engine that combines deep regex with Shannon entropy analysis to catch heavily obfuscated credentials.
 
 ---
 
-### 🔗 Connect With Us
-- 🌍 **Website:** [precogs.ai](https://precogs.ai)
-- 📖 **Documentation:** [docs.precogs.ai](https://docs.precogs.ai)
-- 🔒 **Get an API Key:** [app.precogs.ai](https://app.precogs.ai)
+## 🛠️ Open Source & Developer Tools
+
+We believe security should be frictionless for developers. Explore our ecosystem:
+
+- **[precogs-action](https://github.com/marketplace/actions/precogs-ai-security-scan):** Secure your CI/CD pipeline in three lines of YAML. Includes a **100% Free Tier** for Secret, PII, and Dependency scanning.
+- **[precogs-mcp-server](https://github.com/PrecogsAI/precogs-mcp-server):** Bring enterprise security to your AI agents using the open Model Context Protocol (MCP).
+- **[precogs-cli](https://github.com/PrecogsAI/precogs-cli):** Run our lightning-fast detection engine locally from your terminal.
+- **[precogs-sdk](https://github.com/PrecogsAI/precogs-sdk):** Embed Precogs directly into your internal tooling.
+
+---
+
+<div align="center">
+  <h3>Ready to secure your codebase?</h3>
+  <p>Start scanning for free today at <a href="https://precogs.ai">precogs.ai</a></p>
+</div>
